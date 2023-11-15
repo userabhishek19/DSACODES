@@ -52,7 +52,7 @@ public:
                 swap(arr[leftIndex],arr[i]);
                 i= leftIndex;
             }
-             if(rightIndex<size && arr[rightIndex]>arr[i]){
+            else if(rightIndex<size && arr[rightIndex]>arr[i]){
                 swap(arr[rightIndex],arr[i]);
                 i= rightIndex;
             }else
